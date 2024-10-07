@@ -107,6 +107,7 @@ section {
 
 .form-container {
     border: 1px solid #ccc;
+    box-shadow: 10px 5px 5px rgb(161, 158, 158);
 }
 
 form {
@@ -130,6 +131,10 @@ input {
 
 input:focus {
     border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 section > button { 
