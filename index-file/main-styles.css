@@ -37,8 +37,10 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 40vw;
+    width: 100rem;
     overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .Kia_picture {
@@ -87,8 +89,10 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    width: 60vw;
+    /* width: 60vw; */
     background-color: #f4f5f7;
+    flex-grow: 1;
+    flex-shrink: 1;
     /* padding: 30px; */
 }
 
@@ -113,7 +117,7 @@ section {
 form {
     padding-top: 15px;
     display: flex;
-    gap: 30%;
+    gap: 100px;
     font-family: serif;
 }
 
@@ -124,7 +128,7 @@ label {
 
 input {
     font: 1rem sans-serif;
-    width: 250px;
+    width: 10rem;
     box-sizing: border-box;
     border: 1px solid #999;
 }
