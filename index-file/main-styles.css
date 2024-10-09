@@ -1,6 +1,4 @@
 /* Normalize stylesheet */
-@import "modern-normalize";
-
 :root {
   line-height: 1.5;
 }
